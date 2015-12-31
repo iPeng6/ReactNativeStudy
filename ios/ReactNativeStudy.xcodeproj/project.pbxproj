@@ -22,7 +22,6 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		ECB118EE1C3236EA0047812D /* libRNDeviceInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB118ED1C3235FA0047812D /* libRNDeviceInfo.a */; };
 		ECB119131C338BB80047812D /* LocationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB119121C338BB80047812D /* LocationTool.m */; };
 		ECB1191A1C338E390047812D /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB119161C338E390047812D /* BaiduMapAPI_Base.framework */; };
 		ECB1191B1C338E390047812D /* BaiduMapAPI_Location.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB119171C338E390047812D /* BaiduMapAPI_Location.framework */; };
@@ -40,6 +39,7 @@
 		ECB119311C338EFD0047812D /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ECB119301C338EFD0047812D /* mapapi.bundle */; };
 		ECB119341C33A9780047812D /* RCTBDMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB119331C33A9780047812D /* RCTBDMapManager.m */; };
 		ECB119421C33CF330047812D /* RCTBDMap.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB119411C33CF330047812D /* RCTBDMap.m */; };
+		ECD4D6D41C3565140052F195 /* libRNDeviceInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD4D6D31C3564FF0052F195 /* libRNDeviceInfo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,9 +120,9 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
-		ECB118EC1C3235FA0047812D /* PBXContainerItemProxy */ = {
+		ECD4D6D21C3564FF0052F195 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = ECB118DD1C3235FA0047812D /* RNDeviceInfo.xcodeproj */;
+			containerPortal = ECD4D6CE1C3564FF0052F195 /* RNDeviceInfo.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = DA5891D81BA9A9FC002B4DB2;
 			remoteInfo = RNDeviceInfo;
@@ -151,7 +151,6 @@
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		ECB118DD1C3235FA0047812D /* RNDeviceInfo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNDeviceInfo.xcodeproj; path = "../../react-native-device-info/RNDeviceInfo.xcodeproj"; sourceTree = "<group>"; };
 		ECB119111C338BB80047812D /* LocationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationTool.h; path = ReactNativeStudy/LocationTool.h; sourceTree = "<group>"; };
 		ECB119121C338BB80047812D /* LocationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationTool.m; path = ReactNativeStudy/LocationTool.m; sourceTree = "<group>"; };
 		ECB119161C338E390047812D /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = ReactNativeStudy/BDMap/SDK/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
@@ -172,6 +171,7 @@
 		ECB119331C33A9780047812D /* RCTBDMapManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTBDMapManager.m; sourceTree = "<group>"; };
 		ECB119401C33CF330047812D /* RCTBDMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTBDMap.h; sourceTree = "<group>"; };
 		ECB119411C33CF330047812D /* RCTBDMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTBDMap.m; sourceTree = "<group>"; };
+		ECD4D6CE1C3564FF0052F195 /* RNDeviceInfo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNDeviceInfo.xcodeproj; path = "react-native-device-info/RNDeviceInfo.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +186,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECD4D6D41C3565140052F195 /* libRNDeviceInfo.a in Frameworks */,
 				ECB1192F1C338EC30047812D /* libstdc++.6.0.9.tbd in Frameworks */,
 				ECB1192D1C338EB90047812D /* CoreTelephony.framework in Frameworks */,
 				ECB1192B1C338EB00047812D /* libsqlite3.0.tbd in Frameworks */,
@@ -199,7 +200,6 @@
 				ECB1191B1C338E390047812D /* BaiduMapAPI_Location.framework in Frameworks */,
 				ECB1191C1C338E390047812D /* BaiduMapAPI_Map.framework in Frameworks */,
 				ECB1191D1C338E390047812D /* BaiduMapAPI_Search.framework in Frameworks */,
-				ECB118EE1C3236EA0047812D /* libRNDeviceInfo.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
@@ -325,7 +325,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				ECB118DD1C3235FA0047812D /* RNDeviceInfo.xcodeproj */,
+				ECD4D6CE1C3564FF0052F195 /* RNDeviceInfo.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
 				00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */,
@@ -370,14 +370,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ECB118DE1C3235FA0047812D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				ECB118ED1C3235FA0047812D /* libRNDeviceInfo.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		ECB119141C338BE30047812D /* BDMap */ = {
 			isa = PBXGroup;
 			children = (
@@ -409,6 +401,14 @@
 				ECB119191C338E390047812D /* BaiduMapAPI_Search.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECD4D6CF1C3564FF0052F195 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECD4D6D31C3564FF0052F195 /* libRNDeviceInfo.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -521,8 +521,8 @@
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
 				{
-					ProductGroup = ECB118DE1C3235FA0047812D /* Products */;
-					ProjectRef = ECB118DD1C3235FA0047812D /* RNDeviceInfo.xcodeproj */;
+					ProductGroup = ECD4D6CF1C3564FF0052F195 /* Products */;
+					ProjectRef = ECD4D6CE1C3564FF0052F195 /* RNDeviceInfo.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -604,11 +604,11 @@
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		ECB118ED1C3235FA0047812D /* libRNDeviceInfo.a */ = {
+		ECD4D6D31C3564FF0052F195 /* libRNDeviceInfo.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libRNDeviceInfo.a;
-			remoteRef = ECB118EC1C3235FA0047812D /* PBXContainerItemProxy */;
+			remoteRef = ECD4D6D21C3564FF0052F195 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
