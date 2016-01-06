@@ -19,6 +19,9 @@ import AwesomeProject from './demos/AwesomeProject';
 import ListViewDemo from './demos/ListViewDemo';
 import DeviceInfoDemo from './demos/DeviceInfoDemo';
 import MapViewDemo from './demos/MapViewDemo';
+import FormDemo from './demos/FormDemo';
+import TextInputDemo from './demos/TextInputDemo';
+
 
 // 主页Demo列表
 var HomeView = React.createClass({
@@ -36,6 +39,12 @@ var HomeView = React.createClass({
           }}/>
           <TableCell text='MapViewDemo' onPress={()=>{
              this.props.navigator.push({name:"MapViewDemo"});
+          }}/>
+          <TableCell text='FormDemo' onPress={()=>{
+             this.props.navigator.push({name:"FormDemo"});
+          }}/>
+          <TableCell text='TextInputDemo' onPress={()=>{
+             this.props.navigator.push({name:"TextInputDemo"});
           }}/>
         </ScrollView>
       )
@@ -80,6 +89,12 @@ var App = React.createClass({
           break;
         case 'MapViewDemo':
           Component = MapViewDemo;
+          break;
+        case 'FormDemo':
+          Component = FormDemo;
+          break;
+        case 'TextInputDemo':
+          Component = TextInputDemo;
           break;
         default: 
           Component = HomeView;

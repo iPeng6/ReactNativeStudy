@@ -1,11 +1,12 @@
 {
-  "name": "ReactNativeStudy",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "react-native start"
+  "private" : true,
+  "scripts" : {
+    "start" : "react-native start"
   },
-  "dependencies": {
-    "react-native": "^0.17.0"
-  }
+  "name" : "ReactNativeStudy",
+  "dependencies" : {
+    "react-native" : "^0.17.0",
+    "tcomb-form-native" : "git+https:\/\/github.com\/nogic\/tcomb-form-native.git"
+  },
+  "version" : "0.0.1"
 }
